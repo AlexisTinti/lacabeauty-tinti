@@ -1,0 +1,6 @@
+El proyecto consistira en un e-commerce sobre productos de belleza (Laca beauty) donde existan:
+
+-LandPage
+-Galería de Imagenes
+-Carrito de compras y elementos e-commerce
+-Pagos y checkouts
