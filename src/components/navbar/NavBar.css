@@ -1,0 +1,38 @@
+.navbar{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 24);
+  }
+  
+  .links{
+    display: flex;
+    list-style-type: none;
+    padding-right: 6rem;
+    
+  }
+  .link{
+    margin-right: 1rem;
+    text-decoration: none;
+    
+  }
+  
+  .link a{
+    text-decoration:none;
+    color: aliceblue;
+  }
+  
+  .cart-logo{
+    display: flex;
+    height: 2rem;
+    width: 4rem;
+    padding-right: 4rem;
+
+    
+  }
+
+  .logo{
+    padding-left: 4rem;
+    color: aliceblue;
+  }

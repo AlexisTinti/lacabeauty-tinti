@@ -1,9 +1,9 @@
-import '../App.css';
+import './NavBar.css';
+import {LogoCart} from '../cartWidget/CartWidget.js'
 
-const NavigationBar = () =>{
+export const NavigationBar = () =>{
     return(
-      <div className="App">
-        <header className="topbar">
+        <header className="navbar">
         <p className="logo">Laca Beauty (Proximo E-commerce)</p>
           <nav>
             <ul className="links">
@@ -12,9 +12,8 @@ const NavigationBar = () =>{
                 <li className="link"> <a href="#">Nosotros</a></li>
                 <li className="link"> <a href="#">Contacto</a></li>
             </ul>
-            </nav> 
+            </nav>
+            <LogoCart /> 
         </header>
-      </div>
 );};
 
-export default NavigationBar;
