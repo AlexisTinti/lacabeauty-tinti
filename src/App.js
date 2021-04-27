@@ -1,6 +1,7 @@
 import './App.css';
 import {NavigationBar} from './components/navbar/NavBar.js';
-import {List} from './components/list/list.js';
+import {List} from './components/list/List.js';
+import ItemCount from './components/ItemCount';
 
 
 function App() {
@@ -9,19 +10,17 @@ function App() {
     {
         title : 'Producto 1',
         price : '100uds',
-        description : 'Provisorio '
+        description : 'Provisorio ',
+        stock: 4,
     },
-    {
-        title : 'Producto 2',
-        price : '200uds',
-        description : 'Provisorio'
-    }
+    
 ];
 
   return(
     <div className="App">
       <NavigationBar />
-      <List listProducts = {products} />
+      <List ListProducts = {products} />
+      <ItemCount stock ={products[0].stock} initial='0'  />
       
     </div>
   )

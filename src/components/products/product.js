@@ -12,8 +12,9 @@ export const Products = (props) =>{
     <div>
         <p> Precio : {props.price}</p> 
         <p> Descripcion : {props.description}</p>
+        <p> Stock: {props.stock}</p>
     </div>
 </div>
     )
 
-}
+} 
